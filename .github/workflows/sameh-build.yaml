@@ -1,5 +1,5 @@
 name: sameh-build-workflow
-run-name: " {{ github.workflow }} - Sameh Build Workflow"
+run-name: " {{ github.actor }} - Sameh Build Workflow"
 
 on:
   workflow_dispatch:
